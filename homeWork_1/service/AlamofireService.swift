@@ -198,6 +198,8 @@ class AlamofireService: AlamofireServiceInterface {
         }
     }
     
+    // только этот метод переделывал!!!
+    
     
     func getNews(startFrom: String, completion: @escaping ([VkFeed]) -> Void) {
         let method = "newsfeed.get"
